@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTHORIZATION</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <div class="header__form">
+                <a class="header__form-link" href="./registration.html">Зарегистрироваться</a>
+                <h1 class="header__form-title">Вход</h1>
+                <form action="" class="form" id="autorization">
+                    <div class="header__form-container">
+                        <div class="form-container__item">
+                            <label class="form-container__lable" for="userEmail">Email</label>
+                            <input class="form-container__input input-required"  id="userEmail" type="email" placeholder="Введите email">
+                            <span class="error-email"></span>
+                        </div>
+                        <div class="form-container__item">
+                            <label class="form-container__lable" for="userPassword">Пароль</label>
+                            <input class="form-container__input input-required" id="userPassword" type="password" placeholder="Введите пароль">
+                            <span class="error-password"></span>
+                        </div>
+                        <div class="form-container__item form-container__item-checkbox">
+                            <input class="form-container__checkbox" type="checkbox" id="userCheck">
+                            <label class="form-container__lable-checkbox input-required" for="userCheck" ><span>Я согласен с&nbsp;<a href="#"> Правилами пользования приложением</a></span></label>
+                            <span class="error-checkbox"></span>
+                        </div>
+                        <button class="form-container__btn" id="userBtn" type="submit">Вход</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+</body>
+<script src="./homework-11.js"></script>
+</html>
